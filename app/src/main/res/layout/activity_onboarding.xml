@@ -30,6 +30,7 @@
             android:drawableTint="@color/rose_500"
             android:text="@string/start_exploring"
             android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.TheX.Button"
             android:textColor="@color/rose_500"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"

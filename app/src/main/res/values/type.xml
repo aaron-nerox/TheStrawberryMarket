@@ -37,56 +37,59 @@
     <!--letterSpacing, etc. to define a custom appearance for each and see how they are -->
     <!--applied globally across your app.-->
 
-    <style name="TextAppearance.MyTheme.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
-        <item name="fontFamily">@font/lobster_regular</item>
+    <style name="TextAppearance.TheX.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/cunia</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
-        <item name="fontFamily">@font/lobster_regular</item>
+    <style name="TextAppearance.TheX.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/cunia</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
-        <item name="fontFamily">@font/lobster_regular</item>
+    <style name="TextAppearance.TheX.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/cunia</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
-        <item name="fontFamily">@font/leckleri_regular</item>
+    <style name="TextAppearance.TheX.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/cunia</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
-        <item name="fontFamily">@font/leckleri_regular</item>
+    <style name="TextAppearance.TheX.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/cunia</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
-        <item name="fontFamily">@font/leckleri_regular</item>
+    <style name="TextAppearance.TheX.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/cunia</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
-        <item name="fontFamily">@font/leckleri_regular</item>
+    <style name="TextAppearance.TheX.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/samsungsharpsans</item>
+        <item name="fontWeight">900</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.3</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
-        <item name="fontFamily">@font/leckleri_regular</item>
+    <style name="TextAppearance.TheX.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/samsungsharpsans</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Body1" parent="TextAppearance.MaterialComponents.Body1">
-        <item name="fontFamily">@font/leckleri_regular</item>
+    <style name="TextAppearance.TheX.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/cunia</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Body2" parent="TextAppearance.MaterialComponents.Body2">
-        <item name="fontFamily">@font/leckleri_regular</item>
+    <style name="TextAppearance.TheX.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/samsungsharpsans</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Button" parent="TextAppearance.MaterialComponents.Button">
-        <item name="fontFamily">@font/lobster_regular</item>
+    <style name="TextAppearance.TheX.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/cunia</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Caption" parent="TextAppearance.MaterialComponents.Caption">
-        <item name="fontFamily">@font/lobster_regular</item>
+    <style name="TextAppearance.TheX.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/samsungsharpsans</item>
     </style>
 
-    <style name="TextAppearance.MyTheme.Overline" parent="TextAppearance.MaterialComponents.Overline">
-        <item name="fontFamily">@font/lobster_regular</item>
+    <style name="TextAppearance.TheX.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/samsungsharpsans</item>
     </style>
 
 </resources>

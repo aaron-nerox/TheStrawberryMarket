@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_main_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NeroMarket">
+        <activity android:name=".activities.AuthActivity"></activity>
         <activity
             android:name=".activities.MarketActivity"
             android:label="@string/title_activity_market"
-            android:theme="@style/Theme.NeroMarket.NoActionBar"></activity>
+            android:theme="@style/Theme.NeroMarket.NoActionBar" />
         <activity android:name=".activities.OnBoardingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
