@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NeroMarket" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/rose_500</item>
+        <item name="colorPrimaryVariant">@color/rose_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/magenta_200</item>
+        <item name="colorSecondaryVariant">@color/magenta_500</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/magenta_200</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/magenta_200</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.TheX.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.TheX.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.TheX.LargeComponent</item>
+        <item name="fontFamily">@font/lobster_regular</item>
+    </style>
+</resources>

@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NeroMarket" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/rose_500</item>
+        <item name="colorPrimaryVariant">@color/rose_700</item>
+        <item name="colorOnPrimary">@color/text_accent_200</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/magenta_200</item>
+        <item name="colorSecondaryVariant">@color/magenta_500</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/rose_200</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/rose_200</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.TheX.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.TheX.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.TheX.LargeComponent</item>
+        <item name="fontFamily">@font/lobster_regular</item>
+    </style>
+
+    <style name="button_filled_style" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="Theme.NeroMarket.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:shadowColor" >@color/white</item>
+    </style>
+
+    <style name="Theme.NeroMarket.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NeroMarket.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

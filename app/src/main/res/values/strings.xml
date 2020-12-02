@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">The strawberry Market</string>
+    <string name="title_activity_market">MarketActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="action_cart">cart</string>
+    <string name="action_search">search</string>
+    <string name="start_exploring">Start exploring</string>
+    <string name="market">Market</string>
+    <string name="your_cart">Your cart</string>
+    <string name="about_app">About app</string>
+    <string name="logout">Logout</string>
+    <string name="login">login</string>
+    <string name="walk_2">The strawberry shop worked so hard to bring you milk flavors that maybe they were never existing, so take your time to choose and try different rich and new flavors.</string>
+    <string name="walk_1">The strawberry welcomes her dear users to enjoy a whole word of sweet tastes that will definitely change how they look at milk, Because simply the strawberry shop are the milk flavor champs.</string>
+    <string name="walk_3">The strawberry shop has a lot of flavors, And for that you try them and see which one you will fall in love with.</string>
+    <string name="title_walk1">Welcome to the strawberry shop</string>
+    <string name="title_walk2">Many tastes same origin</string>
+    <string name="title_walk3">Capture your favorite flavors</string>
+
+</resources>

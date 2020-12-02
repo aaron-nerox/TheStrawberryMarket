@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rose_200">#ff5983</color>
+    <color name="rose_500">#f50057</color>
+    <color name="rose_700">#bb002f</color>
+    <color name="magenta_200">#bc477b</color>
+    <color name="magenta_500">#880e4f</color>
+    <color name="magenta_700">#560027</color>
+    <color name="text_accent_200">#fce4ec</color>
+    <color name="text_accent_500">#fce4ec</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>
