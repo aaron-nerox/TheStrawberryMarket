@@ -25,5 +25,17 @@
     <string name="title_walk1">Welcome to the strawberry shop</string>
     <string name="title_walk2">Many tastes same origin</string>
     <string name="title_walk3">Capture your favorite flavors</string>
+    <string name="login_action">Login to your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or">OR</string>
+    <string name="go_to_registration">Go to registration</string>
+    <string name="go_to_login">Go to login</string>
+    <string name="register">register</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="create_a_new_account">Create a new account</string>
 
 </resources>

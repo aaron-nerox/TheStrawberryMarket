@@ -6,27 +6,36 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.activityViewModels
+import androidx.navigation.findNavController
 import com.nerostarx.neromarket.R
+import com.nerostarx.neromarket.databinding.FragmentConfirmBinding
 
 class ConfirmFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = ConfirmFragment()
-    }
-
-    private lateinit var viewModel: ConfirmViewModel
+    private val viewModel: ConfirmViewModel by activityViewModels()
+    private lateinit var binding:FragmentConfirmBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_confirm, container, false)
+        binding = DataBindingUtil.inflate(layoutInflater,R.layout.fragment_confirm, container, false)
+        return binding.root
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(ConfirmViewModel::class.java)
-        // TODO: Use the ViewModel
+        val navigator = requireActivity().findNavController(R.id.auth_nav_host)
+
+        binding.codeConfirmButton.setOnClickListener {
+            requireActivity().finish()
+        }
+
+        binding.removeAccButton.setOnClickListener {
+            navigator.navigate(R.id.to_login_action)
+        }
     }
 
 }

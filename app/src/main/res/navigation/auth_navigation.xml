@@ -7,12 +7,14 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.nerostarx.neromarket.ui.login.loginFragment"
+        android:name="com.nerostarx.neromarket.ui.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/to_register_action"
-            app:destination="@id/registerFragment" />
+            app:destination="@id/registerFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
@@ -21,7 +23,14 @@
         tools:layout="@layout/fragment_register" >
         <action
             android:id="@+id/to_confirm_action"
-            app:destination="@id/confirmFragment" />
+            app:destination="@id/confirmFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/back_to_login_action"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/confirmFragment"
@@ -30,6 +39,8 @@
         tools:layout="@layout/fragment_confirm" >
         <action
             android:id="@+id/to_login_action"
-            app:destination="@id/loginFragment" />
+            app:destination="@id/loginFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
     </fragment>
 </navigation>
