@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="rose_100">#8AFF5983</color>
     <color name="rose_200">#ff5983</color>
     <color name="rose_500">#f50057</color>
     <color name="rose_700">#bb002f</color>
