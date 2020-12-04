@@ -4,8 +4,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.nerostarx.neromarket.R
+import com.nerostarx.neromarket.model.OnItemClickListener
 
-class CartAdapter(): RecyclerView.Adapter<CartAdapter.CartHolder>() {
+class CartAdapter(private val clickListener: OnItemClickListener)
+    :RecyclerView.Adapter<CartAdapter.CartHolder>() {
 
 
     override fun getItemCount(): Int = 19
@@ -16,7 +18,9 @@ class CartAdapter(): RecyclerView.Adapter<CartAdapter.CartHolder>() {
     }
 
     override fun onBindViewHolder(holder: CartHolder, position: Int) {
-
+        holder.itemView.setOnClickListener {
+            clickListener.onClick(position)
+        }
     }
 
     class CartHolder(inflater:LayoutInflater,parent:ViewGroup)

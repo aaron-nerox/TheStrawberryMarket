@@ -5,8 +5,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.imageview.ShapeableImageView
 import com.nerostarx.neromarket.R
+import com.nerostarx.neromarket.model.OnItemClickListener
 
-class ContentAdapter() : RecyclerView.Adapter<ContentAdapter.ContentHolder>(){
+class ContentAdapter(private val clickListener: OnItemClickListener)
+    : RecyclerView.Adapter<ContentAdapter.ContentHolder>(){
 
 
     override fun getItemCount(): Int = 20
@@ -17,7 +19,9 @@ class ContentAdapter() : RecyclerView.Adapter<ContentAdapter.ContentHolder>(){
     }
 
     override fun onBindViewHolder(holder: ContentHolder, position: Int) {
-
+        holder.itemView.setOnClickListener {
+            clickListener.onClick(position)
+        }
     }
 
     class ContentHolder(inflater: LayoutInflater, parent:ViewGroup): RecyclerView

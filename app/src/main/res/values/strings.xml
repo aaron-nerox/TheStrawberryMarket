@@ -55,5 +55,6 @@
     <string name="delete_all">Delete all</string>
     <string name="check_out">Check out</string>
     <string name="delete">delete</string>
+    <string name="flavor_info">Flavor info</string>
 
 </resources>

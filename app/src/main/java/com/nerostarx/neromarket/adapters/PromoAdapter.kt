@@ -1,12 +1,13 @@
 package com.nerostarx.neromarket.adapters
 
-import android.text.Layout
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.nerostarx.neromarket.R
+import com.nerostarx.neromarket.model.OnItemClickListener
 
-class PromoAdapter(): RecyclerView.Adapter<PromoAdapter.PromoHolder>() {
+class PromoAdapter(private val clickListener:OnItemClickListener)
+    : RecyclerView.Adapter<PromoAdapter.PromoHolder>() {
 
     override fun getItemCount(): Int = 3
 
@@ -16,7 +17,9 @@ class PromoAdapter(): RecyclerView.Adapter<PromoAdapter.PromoHolder>() {
     }
 
     override fun onBindViewHolder(holder: PromoHolder, position: Int) {
-
+        holder.itemView.setOnClickListener {
+            clickListener.onClick(position)
+        }
     }
 
     class PromoHolder(inflater: LayoutInflater, parent:ViewGroup): RecyclerView

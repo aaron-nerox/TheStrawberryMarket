@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_main_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NeroMarket">
-        <activity android:name=".activities.AuthActivity"></activity>
+        <activity android:name=".activities.StoryActivity"></activity>
+        <activity android:name=".activities.AuthActivity" />
         <activity
             android:name=".activities.MarketActivity"
             android:label="@string/title_activity_market"

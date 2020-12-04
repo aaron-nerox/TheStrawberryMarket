@@ -9,17 +9,40 @@
         android:id="@+id/nav_market"
         android:name="com.nerostarx.neromarket.ui.market.MarketFragment"
         android:label="@string/market"
-        tools:layout="@layout/fragment_market" />
+        tools:layout="@layout/fragment_market" >
+        <action
+            android:id="@+id/to_product_action"
+            app:destination="@id/nav_product"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_cart"
         android:name="com.nerostarx.neromarket.ui.cart.CartFragment"
         android:label="@string/your_cart"
-        tools:layout="@layout/fragment_cart" />
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/cart_to_product_action"
+            app:destination="@id/nav_product"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_about"
         android:name="com.nerostarx.neromarket.ui.about.AboutFragment"
         android:label="@string/about_app"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_product"
+        android:name="com.nerostarx.neromarket.ui.product.ProductFragment"
+        android:label="@string/flavor_info"
+        tools:layout="@layout/fragment_product" >
+        <action
+            android:id="@+id/to_nav_market"
+            app:destination="@id/nav_market"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
 </navigation>

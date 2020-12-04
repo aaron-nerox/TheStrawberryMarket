@@ -7,11 +7,13 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView.VERTICAL
 import com.nerostarx.neromarket.R
 import com.nerostarx.neromarket.adapters.CartAdapter
 import com.nerostarx.neromarket.databinding.FragmentCartBinding
+import com.nerostarx.neromarket.model.OnItemClickListener
 
 class CartFragment : Fragment() {
 
@@ -30,9 +32,15 @@ class CartFragment : Fragment() {
     }
 
     private fun initCart() {
+        val clickListener = object : OnItemClickListener {
+            override fun onClick(position: Int) {
+                val navController = requireActivity().findNavController(R.id.nav_host_fragment)
+                navController.navigate(R.id.cart_to_product_action)
+            }
+        }
         val cartRecycler = binding.cartItemsRecycler
         cartRecycler.setHasFixedSize(false)
         cartRecycler.layoutManager = LinearLayoutManager(requireContext(),VERTICAL,false)
-        cartRecycler.adapter = CartAdapter()
+        cartRecycler.adapter = CartAdapter(clickListener)
     }
 }
