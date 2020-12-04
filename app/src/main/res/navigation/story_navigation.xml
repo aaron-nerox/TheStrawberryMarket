@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/story_navigation"
+    app:startDestination="@id/nav_public_story">
+
+    <fragment
+        android:id="@+id/nav_public_story"
+        android:name="com.nerostarx.neromarket.ui.publicstory.PublicStoryFragment"
+        android:label="public story"
+        tools:layout="@layout/fragment_public_story">
+        <action
+            android:id="@+id/to_user_story"
+            app:destination="@id/nav_user_story" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_user_story"
+        android:name="com.nerostarx.neromarket.ui.userstory.UserStoryFragment"
+        android:label="user_story"
+        tools:layout="@layout/fragemnt_user_story" />
+</navigation>

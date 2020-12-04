@@ -43,6 +43,9 @@ class MarketFragment : Fragment() {
         val storyClick = object : OnItemClickListener{
             override fun onClick(position: Int) {
                 val intent = Intent(requireActivity(), StoryActivity::class.java)
+                if(position == 0){
+                    intent.putExtra("STORY_MODE", "USER")
+                }
                 startActivity(intent)
             }
         }
