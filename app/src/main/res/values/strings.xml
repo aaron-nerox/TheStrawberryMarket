@@ -52,5 +52,8 @@
     <string name="more_about_the_app">More about the app</string>
     <string name="nothing">nothing</string>
     <string name="question">which drink you want?</string>
+    <string name="delete_all">Delete all</string>
+    <string name="check_out">Check out</string>
+    <string name="delete">delete</string>
 
 </resources>
