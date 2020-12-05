@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:shapeAppearance="?attr/shapeAppearanceMediumComponent"
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.TheX.Image"
-        app:srcCompat="@drawable/cover"
+        app:srcCompat="@drawable/user"
         app:strokeColor="@color/rose_100"
         app:strokeWidth="4dp" />
 
