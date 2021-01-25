@@ -7,8 +7,8 @@
     <color name="magenta_200">#bc477b</color>
     <color name="magenta_500">#880e4f</color>
     <color name="magenta_700">#560027</color>
-    <color name="text_accent_200">#fce4ec</color>
-    <color name="text_accent_500">#FFB3CC</color>
+    <color name="text_accent_200">#FDF1F5</color>
+    <color name="text_accent_500">#FFD4E2</color>
 
     <color name="transparent">#00000000</color>
     <color name="black">#FF000000</color>

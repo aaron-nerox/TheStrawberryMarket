@@ -10,7 +10,7 @@ class StoriesAdapter(private val storyClick:OnItemClickListener )
     : RecyclerView.Adapter<StoriesAdapter.StoryHolder>() {
 
 
-    override fun getItemCount(): Int = 6
+    override fun getItemCount(): Int = 3
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StoryHolder {
         val inflater = LayoutInflater.from(parent.context)

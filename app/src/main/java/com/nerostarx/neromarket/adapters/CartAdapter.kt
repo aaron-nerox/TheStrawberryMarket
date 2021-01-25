@@ -10,7 +10,7 @@ class CartAdapter(private val clickListener: OnItemClickListener)
     :RecyclerView.Adapter<CartAdapter.CartHolder>() {
 
 
-    override fun getItemCount(): Int = 19
+    override fun getItemCount(): Int = 3
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CartHolder {
        val inflater = LayoutInflater.from(parent.context)

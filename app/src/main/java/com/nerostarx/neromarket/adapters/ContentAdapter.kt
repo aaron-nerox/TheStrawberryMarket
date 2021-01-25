@@ -11,7 +11,7 @@ class ContentAdapter(private val clickListener: OnItemClickListener)
     : RecyclerView.Adapter<ContentAdapter.ContentHolder>(){
 
 
-    override fun getItemCount(): Int = 20
+    override fun getItemCount(): Int = 3
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ContentHolder {
         val inflater = LayoutInflater.from(parent.context)
