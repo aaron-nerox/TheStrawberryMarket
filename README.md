@@ -1,6 +1,8 @@
 # <div align="center" > :strawberry: THE STRAWBERRY MARKET :strawberry: </div>
 ### <div align="center" > A next gen android app for a strawberry milk shop made from stars by the nerostarx </div>
 
+###
+###
 ## <div align="center" > :strawberry: Application screenshots :strawberry: </div>
 
 <div display="inline-flex" flex-direction="rows" align="center" >
@@ -21,6 +23,12 @@
 * Search for a drink from the list available :nerd_face: :nerd_face:
 * A dark mode with tuned down colors to prevent hurting the eyes :sunglasses: :sunglasses:
 
+## <div align="center" > :strawberry: Things to do :strawberry: </div>
+
+- [ ] Update the application's interface to the latest version of "THE X DESIGN SYSTEM"
+- [ ] Modify the font selection
+- [ ] Use less ressource draining placeholders
+- [ ] Build actual http requests (Maybe a [Kotlin ktor](https://ktor.io) web server to handle these requests)
 
 ## <div align="center" > :strawberry: CONTRIBUTE TO THIS PROJECT :strawberry: </div>
 ### <div align="center" > This project is open for anyone who wants to add and/or modify something in the source code.</div>
