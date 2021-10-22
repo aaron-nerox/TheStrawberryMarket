@@ -8,11 +8,10 @@
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/pink_500</item>
         <item name="colorSecondaryVariant">@color/pink_700</item>
-        <item name="colorOnSecondary">@color/royal_black</item>
+        <item name="colorOnSecondary">@color/pink_1000</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">@color/transparent</item>
         <!-- Customize your theme here. -->
-
         <item name="android:windowBackground">@color/pink_500</item>
         <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.TheX.SmallComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.TheX.MediumComponent</item>

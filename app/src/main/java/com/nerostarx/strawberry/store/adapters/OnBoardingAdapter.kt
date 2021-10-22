@@ -41,7 +41,7 @@ class OnBoardingAdapter : RecyclerView.Adapter<OnBoardingAdapter.OnBoardingHolde
         holder.descriptionText.text = descriptionList[position]
 
         when(position) {
-            0 ->{holder.image.setImageResource(R.drawable.ic_logo)}
+            0 ->{holder.image.setImageResource(R.drawable.main_logo)}
             1 ->{holder.image.setImageResource(R.drawable.ic_beverage)}
             2 ->{holder.image.setImageResource(R.drawable.ic_fav_drink)}
         }

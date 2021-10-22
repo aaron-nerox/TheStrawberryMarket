@@ -19,17 +19,15 @@
     <string name="logout">Logout</string>
     <string name="login">login</string>
     <string name="walk_2">The strawberry shop worked so hard to bring you milk
-        flavors that maybe they were never existing, so take your time to choose and
-        try different rich and new flavors.</string>
-    <string name="walk_1">The strawberry welcomes her dear users to enjoy a whole
-        word of sweet tastes that will definitely change how they look at milk,
-        Because simply the strawberry shop are the milk flavor champs.</string>
-    <string name="walk_3">The strawberry shop has a lot of flavors,
-        And for that you try them and see which one you will fall
-        in love with.</string>
-    <string name="title_walk1">Welcome to the strawberry shop</string>
-    <string name="title_walk2">Many tastes same origin</string>
-    <string name="title_walk3">Capture your favorite flavors</string>
+        flavors that maybe never existed, so take time and try different rich and new flavors.</string>
+    <string name="walk_1">The strawberry welcomes you to enjoy a world full of sweet tastes,
+        Because simply the strawberry store are the champions of milk flavors.</string>
+
+    <string name="walk_3">The strawberry store has lots of flavors,
+        You will have the chance to try them and see which one captures your heart.</string>
+    <string name="title_walk1">Welcome</string>
+    <string name="title_walk2">limitless tastes</string>
+    <string name="title_walk3">Pick favorites</string>
     <string name="login_action">Login to your account</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
