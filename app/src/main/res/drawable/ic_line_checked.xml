@@ -5,7 +5,7 @@
             android:innerRadius="0dp"
             android:thickness="10dp"
             android:useLevel="false">
-            <solid android:color="@color/rose_200"/>
+            <solid android:color="@color/pink_200"/>
             <corners android:radius="1000dp"/>
         </shape>
     </item>

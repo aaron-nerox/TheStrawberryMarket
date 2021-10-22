@@ -25,7 +25,7 @@
         app:shapeAppearance="?attr/shapeAppearanceMediumComponent"
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.TheX.Image"
         app:srcCompat="@mipmap/ic_main_icon"
-        app:strokeColor="@color/rose_200"
+        app:strokeColor="@color/pink_200"
         app:strokeWidth="2dp" />
 
     <TextView
@@ -35,7 +35,7 @@
         android:layout_marginStart="8dp"
         android:text="UserName"
         android:textAppearance="@style/TextAppearance.TheX.Body1"
-        android:textColor="@color/rose_500"
+        android:textColor="@color/pink_200"
         android:textSize="18sp"
         android:textStyle="bold"
         android:visibility="gone"
@@ -52,7 +52,7 @@
         android:layout_marginTop="8dp"
         android:text="Email@mail.com"
         android:textAppearance="@style/TextAppearance.TheX.Body2"
-        android:textColor="@color/rose_500"
+        android:textColor="@color/pink_200"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

@@ -173,7 +173,7 @@
                 app:icon="@drawable/ic_arrow_forward"
                 app:iconGravity="end"
                 app:iconPadding="16dp"
-                app:strokeColor="@color/rose_200"
+                app:strokeColor="@color/pink_200"
                 app:strokeWidth="2dp" />
         </LinearLayout>
     </ScrollView>

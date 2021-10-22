@@ -22,7 +22,7 @@
         android:layout_height="40dp"
         app:cardCornerRadius="10dp"
         app:cardElevation="0dp"
-        app:cardBackgroundColor="@color/rose_100"
+        app:cardBackgroundColor="@color/pink_200"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,11 +38,11 @@
             android:paddingRight="16dp"
             android:text="Milk name"
             android:textAlignment="textStart"
-            android:textColor="@color/text_accent_200"
+            android:textColor="@color/pink_200"
             app:icon="@drawable/ic_arrow_forward"
             app:iconGravity="end"
             app:iconPadding="16dp"
-            app:iconTint="@color/text_accent_200" />
+            app:iconTint="@color/pink_200" />
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

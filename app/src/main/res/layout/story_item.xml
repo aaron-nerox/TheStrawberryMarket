@@ -20,7 +20,7 @@
         app:shapeAppearance="?attr/shapeAppearanceMediumComponent"
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.TheX.Image"
         app:srcCompat="@drawable/user"
-        app:strokeColor="@color/rose_100"
+        app:strokeColor="@color/pink_200"
         app:strokeWidth="4dp" />
 
     <TextView

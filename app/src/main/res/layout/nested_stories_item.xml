@@ -37,7 +37,7 @@
         app:shapeAppearance="?attr/shapeAppearanceMediumComponent"
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.TheX.Image"
         app:srcCompat="@drawable/cover"
-        app:strokeColor="@color/rose_100"
+        app:strokeColor="@color/pink_200"
         app:strokeWidth="3dp" />
 
     <androidx.viewpager2.widget.ViewPager2

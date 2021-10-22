@@ -2,31 +2,18 @@
     <!-- Base application theme. -->
     <style name="Theme.NeroMarket" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/rose_500</item>
-        <item name="colorPrimaryVariant">@color/rose_700</item>
-        <item name="colorOnPrimary">@color/text_accent_200</item>
+        <item name="colorPrimary">@color/pink_500</item>
+        <item name="colorPrimaryVariant">@color/pink_700</item>
+        <item name="colorOnPrimary">@color/pink_200</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/magenta_200</item>
-        <item name="colorSecondaryVariant">@color/magenta_500</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/pink_500</item>
+        <item name="colorSecondaryVariant">@color/pink_700</item>
+        <item name="colorOnSecondary">@color/royal_black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">@color/rose_200</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/transparent</item>
         <!-- Customize your theme here. -->
-        <item name="textAppearanceHeadline1">@style/TextAppearance.TheX.Headline1</item>
-        <item name="textAppearanceHeadline2">@style/TextAppearance.TheX.Headline2</item>
-        <item name="textAppearanceHeadline3">@style/TextAppearance.TheX.Headline3</item>
-        <item name="textAppearanceHeadline4">@style/TextAppearance.TheX.Headline4</item>
-        <item name="textAppearanceHeadline5">@style/TextAppearance.TheX.Headline5</item>
-        <item name="textAppearanceHeadline6">@style/TextAppearance.TheX.Headline6</item>
-        <item name="textAppearanceSubtitle1">@style/TextAppearance.TheX.Subtitle1</item>
-        <item name="textAppearanceSubtitle2">@style/TextAppearance.TheX.Subtitle2</item>
-        <item name="textAppearanceBody1">@style/TextAppearance.TheX.Body1</item>
-        <item name="textAppearanceBody2">@style/TextAppearance.TheX.Body2</item>
-        <item name="textAppearanceButton">@style/TextAppearance.TheX.Button</item>
-        <item name="textAppearanceCaption">@style/TextAppearance.TheX.Caption</item>
-        <item name="textAppearanceOverline">@style/TextAppearance.TheX.Overline</item>
 
-        <item name="android:windowBackground">@color/rose_200</item>
+        <item name="android:windowBackground">@color/pink_500</item>
         <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.TheX.SmallComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.TheX.MediumComponent</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.TheX.LargeComponent</item>
@@ -39,9 +26,9 @@
         <item name="android:paddingEnd">16dp</item>
         <item name="android:paddingTop">8dp</item>
         <item name="android:paddingBottom">8dp</item>
-        <item name="drawableTint">@color/text_accent_200</item>
-        <item name="android:textColor">@color/text_accent_200</item>
-        <item name="android:textColorHint">@color/text_accent_200</item>
+        <item name="drawableTint">@color/pink_200</item>
+        <item name="android:textColor">@color/pink_200</item>
+        <item name="android:textColorHint">@color/pink_200</item>
     </style>
 
     <style name="Theme.NeroMarket.NoActionBar">
