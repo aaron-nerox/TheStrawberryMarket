@@ -16,7 +16,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.navigation.NavController
-import com.nerostarx.strawberry.R
+import com.nerostarx.strawberry.store.R
 
 class MarketActivity : AppCompatActivity() {
 

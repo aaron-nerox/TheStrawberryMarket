@@ -3,19 +3,17 @@ package com.nerostarx.strawberry.store.activities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.databinding.DataBindingUtil
 import androidx.viewpager2.widget.ViewPager2.ORIENTATION_HORIZONTAL
-import com.nerostarx.strawberry.R
 import com.nerostarx.strawberry.store.adapters.OnBoardingAdapter
-import com.nerostarx.strawberry.databinding.ActivityOnboardingBinding
+import com.nerostarx.strawberry.store.databinding.ActivityOnboardingBinding
 
 class OnBoardingActivity : AppCompatActivity() {
 
     private lateinit var binding:ActivityOnboardingBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this,R.layout.activity_onboarding)
-
+        binding = ActivityOnboardingBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         initViews()
     }
 

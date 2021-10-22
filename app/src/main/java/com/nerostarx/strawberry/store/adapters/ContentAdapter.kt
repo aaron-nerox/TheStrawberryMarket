@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.imageview.ShapeableImageView
-import com.nerostarx.strawberry.R
+import com.nerostarx.strawberry.store.R
 import com.nerostarx.strawberry.store.model.OnItemClickListener
 
 class ContentAdapter(private val clickListener: OnItemClickListener)

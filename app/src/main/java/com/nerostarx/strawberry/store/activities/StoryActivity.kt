@@ -3,7 +3,7 @@ package com.nerostarx.strawberry.store.activities
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.findNavController
-import com.nerostarx.strawberry.R
+import com.nerostarx.strawberry.store.R
 
 class StoryActivity : AppCompatActivity() {
 

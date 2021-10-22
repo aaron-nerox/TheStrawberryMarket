@@ -2,9 +2,7 @@ package com.nerostarx.strawberry.store.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.databinding.DataBindingUtil
-import com.nerostarx.strawberry.R
-import com.nerostarx.strawberry.databinding.ActivityAuthBinding
+import com.nerostarx.strawberry.store.databinding.ActivityAuthBinding
 
 
 class AuthActivity : AppCompatActivity() {
@@ -13,6 +11,8 @@ class AuthActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this,R.layout.activity_auth)
+
+        binding = ActivityAuthBinding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 }

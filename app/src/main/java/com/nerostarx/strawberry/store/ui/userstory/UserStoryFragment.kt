@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
-import com.nerostarx.strawberry.R
+import com.nerostarx.strawberry.store.R
 
 class UserStoryFragment : Fragment() {
 

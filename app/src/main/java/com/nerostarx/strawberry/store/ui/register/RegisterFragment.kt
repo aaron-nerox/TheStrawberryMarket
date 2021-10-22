@@ -5,22 +5,19 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.findNavController
-import com.nerostarx.strawberry.R
-import com.nerostarx.strawberry.databinding.FragmentRegisterBinding
+import com.nerostarx.strawberry.store.R
+import com.nerostarx.strawberry.store.databinding.FragmentRegisterBinding
 
 class RegisterFragment : Fragment() {
 
     private val viewModel: RegisterViewModel by activityViewModels()
     private lateinit var binding: FragmentRegisterBinding
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        binding = DataBindingUtil.inflate(layoutInflater,R.layout.fragment_register, container, false)
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?): View {
+        binding = FragmentRegisterBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 

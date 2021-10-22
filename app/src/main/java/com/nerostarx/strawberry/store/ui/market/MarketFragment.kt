@@ -5,19 +5,18 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.nerostarx.strawberry.R
+import com.nerostarx.strawberry.store.R
 import com.nerostarx.strawberry.store.activities.StoryActivity
 import com.nerostarx.strawberry.store.adapters.ContentAdapter
 import com.nerostarx.strawberry.store.adapters.PromoAdapter
 import com.nerostarx.strawberry.store.adapters.StoriesAdapter
-import com.nerostarx.strawberry.databinding.FragmentMarketBinding
+import com.nerostarx.strawberry.store.databinding.FragmentMarketBinding
 import com.nerostarx.strawberry.store.model.OnItemClickListener
 
 class MarketFragment : Fragment() {
@@ -26,9 +25,8 @@ class MarketFragment : Fragment() {
     private lateinit var binding:FragmentMarketBinding
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?): View? {
-        binding = DataBindingUtil
-                .inflate(layoutInflater,R.layout.fragment_market, container, false)
+        savedInstanceState: Bundle?): View {
+        binding = FragmentMarketBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 
