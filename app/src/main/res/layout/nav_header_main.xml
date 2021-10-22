@@ -16,16 +16,14 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:contentDescription="@string/nav_header_desc"
-        android:padding="2dp"
+        android:scaleType="centerCrop"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:shapeAppearance="?attr/shapeAppearanceMediumComponent"
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.TheX.Image"
-        app:srcCompat="@mipmap/ic_main_icon"
-        app:strokeColor="@color/pink_200"
-        app:strokeWidth="2dp"
+        app:srcCompat="@drawable/user"
         tools:visibility="visible" />
 
     <TextView
