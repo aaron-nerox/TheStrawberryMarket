@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.nerostarx.neromarket"
+        applicationId "com.nerostarx.strawberry.store"
         minSdkVersion 26
         targetSdkVersion 30
         versionCode 1

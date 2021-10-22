@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_market"
-        android:name="com.nerostarx.neromarket.ui.market.MarketFragment"
+        android:name="com.nerostarx.strawberry.store.ui.market.MarketFragment"
         android:label="@string/market"
         tools:layout="@layout/fragment_market" >
         <action
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/nav_cart"
-        android:name="com.nerostarx.neromarket.ui.cart.CartFragment"
+        android:name="com.nerostarx.strawberry.store.ui.cart.CartFragment"
         android:label="@string/your_cart"
         tools:layout="@layout/fragment_cart" >
         <action
@@ -31,12 +31,12 @@
 
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.nerostarx.neromarket.ui.about.AboutFragment"
+        android:name="com.nerostarx.strawberry.store.ui.about.AboutFragment"
         android:label="@string/about_app"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/nav_product"
-        android:name="com.nerostarx.neromarket.ui.product.ProductFragment"
+        android:name="com.nerostarx.strawberry.store.ui.product.ProductFragment"
         android:label="@string/flavor_info"
         tools:layout="@layout/fragment_product" >
         <action

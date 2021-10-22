@@ -5,7 +5,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".activities.StoryActivity">
+        tools:context=".store.activities.StoryActivity">
 
         <fragment
             android:id="@+id/story_nav_host"

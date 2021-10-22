@@ -5,7 +5,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.nerostarx.neromarket.ui.market.MarketViewModel" />
+            type="com.nerostarx.strawberry.ui.market.MarketViewModel" />
     </data>
 
     <androidx.constraintlayout.motion.widget.MotionLayout
@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:elevation="5dp"
         app:layoutDescription="@xml/fragment_market_xml_constraintlayout3_scene"
-        tools:context=".ui.market.MarketFragment">
+        tools:context=".store.ui.market.MarketFragment">
 
         <SearchView
             android:id="@+id/searchView"

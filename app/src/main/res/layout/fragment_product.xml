@@ -5,7 +5,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.nerostarx.neromarket.ui.product.ProductViewModel" />
+            type="com.nerostarx.strawberry.ui.product.ProductViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

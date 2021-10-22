@@ -5,7 +5,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.nerostarx.neromarket.ui.cart.CartViewModel" />
+            type="com.nerostarx.strawberry.ui.cart.CartViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/view_background"
         android:elevation="5dp"
-        tools:context=".ui.cart.CartFragment">
+        tools:context=".store.ui.cart.CartFragment">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/cart_items_recycler"

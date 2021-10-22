@@ -5,13 +5,13 @@
     <data>
         <variable
             name="viewModel"
-            type="com.nerostarx.neromarket.ui.publicstory.PublicStoryViewModel" />
+            type="com.nerostarx.strawberry.ui.publicstory.PublicStoryViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.publicstory.PublicStoryFragment" >
+        tools:context=".store.ui.publicstory.PublicStoryFragment" >
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/public_stories_pager"

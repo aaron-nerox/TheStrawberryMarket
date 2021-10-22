@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.nerostarx.neromarket.ui.login.LoginFragment"
+        android:name="com.nerostarx.strawberry.store.ui.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.nerostarx.neromarket.ui.register.RegisterFragment"
+        android:name="com.nerostarx.strawberry.store.ui.register.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/confirmFragment"
-        android:name="com.nerostarx.neromarket.ui.confirmregister.ConfirmFragment"
+        android:name="com.nerostarx.strawberry.store.ui.confirmregister.ConfirmFragment"
         android:label="fragment_confirm"
         tools:layout="@layout/fragment_confirm" >
         <action

@@ -7,14 +7,14 @@
     <data>
         <variable
             name="viewModel"
-            type="com.nerostarx.neromarket.ui.confirmregister.ConfirmViewModel" />
+            type="com.nerostarx.strawberry.ui.confirmregister.ConfirmViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/view_background"
-        tools:context=".ui.login.LoginFragment">
+        tools:context=".store.ui.login.LoginFragment">
 
         <ScrollView
             android:layout_width="match_parent"

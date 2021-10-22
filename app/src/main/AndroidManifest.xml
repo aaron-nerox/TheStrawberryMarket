@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nerostarx.neromarket">
+    package="com.nerostarx.strawberry.store">
 
     <application
         android:allowBackup="true"
@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_main_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NeroMarket">
-        <activity android:name=".activities.StoryActivity"></activity>
+        <activity android:name=".activities.StoryActivity" />
         <activity android:name=".activities.AuthActivity" />
         <activity
             android:name=".activities.MarketActivity"
             android:label="@string/title_activity_market"
             android:theme="@style/Theme.NeroMarket.NoActionBar" />
-        <activity android:name=".activities.OnBoardingActivity">
+        <activity android:name=".activities.OnBoardingActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
