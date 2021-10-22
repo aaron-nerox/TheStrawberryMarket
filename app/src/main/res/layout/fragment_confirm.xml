@@ -30,7 +30,6 @@
                 android:layout_marginBottom="8dp"
                 android:text="Confirm your account"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.TheX.Headline3"
                 android:textSize="24sp" />
 
             <EditText
@@ -48,7 +47,6 @@
                 android:inputType="textEmailAddress"
                 android:paddingTop="16dp"
                 android:paddingBottom="16dp"
-                android:textAppearance="@style/TextAppearance.TheX.Subtitle2"
                 android:textStyle="bold" />
 
             <Button
@@ -77,7 +75,7 @@
                 android:layout_marginBottom="16dp"
                 android:text="@string/or"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.TheX.Body1" />
+                />
 
             <Button
                 android:id="@+id/resend_code_input"
@@ -116,7 +114,6 @@
                 android:paddingRight="16dp"
                 android:paddingBottom="8dp"
                 android:text="This is not my account"
-                android:textAppearance="@style/TextAppearance.TheX.Button"
                 android:textColor="@color/pink_200"
                 android:textSize="18sp"
                 app:iconGravity="end"

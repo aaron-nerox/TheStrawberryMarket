@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/dragger.xml" value="0.11979166666666667" />
+        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/field_background.xml" value="0.11979166666666667" />
+        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/ic_line_checked.xml" value="0.11979166666666667" />
+        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/ic_line_unchecked.xml" value="0.11979166666666667" />
+        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/view_background.xml" value="0.26614583333333336" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/activity_auth.xml" value="0.13451086956521738" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/activity_market.xml" value="0.25" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/activity_onboarding.xml" value="0.25" />

@@ -23,6 +23,5 @@
         android:fitsSystemWindows="true"
         android:keepScreenOn="false"
         app:headerLayout="@layout/nav_header_main"
-        app:itemTextAppearance="@style/TextAppearance.TheX.Subtitle1"
         app:menu="@menu/activity_main_drawer" />
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -21,8 +21,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@color/transparent"
             android:elevation="0dp"
-            app:popupTheme="@style/AppBarOverlay"
-            app:titleTextAppearance="@style/TextAppearance.TheX.Headline6" />
+            app:popupTheme="@style/AppBarOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
