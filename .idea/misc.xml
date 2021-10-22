@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/dragger.xml" value="0.11979166666666667" />
+        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/drawer_view.xml" value="0.26205128205128203" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/field_background.xml" value="0.11979166666666667" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/ic_line_checked.xml" value="0.11979166666666667" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/ic_line_unchecked.xml" value="0.11979166666666667" />
@@ -26,7 +27,7 @@
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_product.xml" value="0.2368659420289855" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_public_story.xml" value="0.2368659420289855" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_register.xml" value="0.25" />
-        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/nav_header_main.xml" value="0.2" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/nested_stories_item.xml" value="0.25" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/nested_story.xml" value="0.25" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/on_boarding_item.xml" value="0.25" />

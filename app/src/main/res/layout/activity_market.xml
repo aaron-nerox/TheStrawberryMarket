@@ -19,9 +19,11 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:layout_margin="8dp"
         android:background="@drawable/drawer_view"
         android:fitsSystemWindows="true"
         android:keepScreenOn="false"
+        app:elevation="0dp"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 </androidx.drawerlayout.widget.DrawerLayout>

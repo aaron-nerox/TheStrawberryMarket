@@ -13,62 +13,72 @@
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/header_userimage"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:contentDescription="@string/nav_header_desc"
         android:padding="2dp"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:shapeAppearance="?attr/shapeAppearanceMediumComponent"
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.TheX.Image"
         app:srcCompat="@mipmap/ic_main_icon"
         app:strokeColor="@color/pink_200"
-        app:strokeWidth="2dp" />
+        app:strokeWidth="2dp"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/header_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/forte"
         android:text="UserName"
-        android:textColor="@color/pink_200"
+        android:textColor="@color/pink_500"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/header_userimage"
-        app:layout_constraintTop_toTopOf="@+id/header_userimage" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_userimage"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/header_usermail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat"
         android:text="Email@mail.com"
         android:textColor="@color/pink_200"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/header_userimage"
-        app:layout_constraintTop_toBottomOf="@+id/header_username" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_username"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/login_button"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_marginTop="8dp"
-        android:insetTop="2dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
         android:text="@string/login"
         android:textAllCaps="false"
+        android:textColor="@color/pink_100"
+        android:visibility="gone"
+        app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/header_userimage"
-        app:layout_constraintTop_toBottomOf="@+id/header_userimage" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_usermail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
