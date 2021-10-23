@@ -8,6 +8,8 @@
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/field_background.xml" value="0.11979166666666667" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/ic_line_checked.xml" value="0.11979166666666667" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/ic_line_unchecked.xml" value="0.11979166666666667" />
+        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/ic_star.xml" value="0.24479166666666666" />
+        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/small_view_background.xml" value="0.24479166666666666" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/thex_btn_statelist_anim.xml" value="0.26205128205128203" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/drawable/view_background.xml" value="0.26614583333333336" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/activity_auth.xml" value="0.13451086956521738" />
@@ -16,14 +18,14 @@
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/activity_story.xml" value="0.25" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/cart_item.xml" value="0.25" />
-        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/content_item.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/content_item.xml" value="0.4" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/content_main.xml" value="0.25" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragemnt_user_story.xml" value="0.2368659420289855" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_about.xml" value="0.2368659420289855" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_cart.xml" value="0.2368659420289855" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_confirm.xml" value="0.2368659420289855" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_login.xml" value="0.2368659420289855" />
-        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_market.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_market.xml" value="0.2" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_product.xml" value="0.2368659420289855" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_public_story.xml" value="0.2368659420289855" />
         <entry key="..\:/AndroidProjects/StrawberryMarket/app/src/main/res/layout/fragment_register.xml" value="0.25" />

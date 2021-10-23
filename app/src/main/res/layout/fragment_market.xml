@@ -12,6 +12,8 @@
 
     <SearchView
         android:id="@+id/searchView"
+        style="@android:style/Widget.Material.SearchView"
+        android:theme="@style/searchStyle"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
@@ -65,41 +67,47 @@
 
                     <ImageView
                         android:id="@+id/imageView3"
-                        android:layout_width="70dp"
-                        android:layout_height="8dp"
+                        android:layout_width="90dp"
+                        android:layout_height="6dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="8dp"
                         android:contentDescription="@string/nothing"
-                        app:srcCompat="@drawable/dragger" />
+                        app:srcCompat="@drawable/field_background" />
 
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/stories_recycler"
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:layout_marginStart="0dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="0dp" />
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="25dp"
+                        android:elevation="0dp"
+                        app:cardElevation="0dp"
+                        android:padding="8dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardBackgroundColor="?attr/smallComponentColor">
 
-                    <View
-                        android:id="@+id/divider"
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:layout_marginTop="8dp"
-                        android:background="?android:attr/listDivider" />
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/stories_recycler"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"/>
+                    </androidx.cardview.widget.CardView>
 
                     <androidx.viewpager2.widget.ViewPager2
                         android:id="@+id/promo_pager"
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
-                        android:layout_marginTop="8dp" />
+                        android:layout_marginTop="16dp" />
 
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/product_recycler"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginStart="12dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="12dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
                         android:overScrollMode="always" />
 
                 </LinearLayout>
