@@ -11,25 +11,29 @@
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/shapeableImageView2"
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:shapeAppearance="@style/ImageShapeAppearance"
-        app:srcCompat="@drawable/product_image" />
+        app:shapeAppearance="@style/ShapeAppearance.TheX.MediumComponent"
+        app:srcCompat="@drawable/product_image2" />
 
     <Button
         android:id="@+id/favorite_button"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
         app:icon="@drawable/ic_favorite_outlined"
-        app:layout_constraintBottom_toBottomOf="@+id/flavore_name"
+        app:layout_constraintBottom_toBottomOf="@+id/flavor_price"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/flavore_name" />
+        app:layout_constraintTop_toTopOf="@+id/flavore_name"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/flavore_name"
@@ -38,7 +42,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:fontFamily="@font/forte"
         android:text="Iced starwberry milk"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/favorite_button"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +56,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat"
         android:text="price: 190DZA"
+        android:textAllCaps="true"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/flavore_name"
@@ -65,9 +73,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserrat"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/flavore_name"
@@ -76,21 +86,22 @@
 
     <Button
         android:id="@+id/button4"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:insetTop="2dp"
-        android:insetBottom="2dp"
+        android:layout_marginBottom="32dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
         android:text="Add to cart"
+        android:textColor="@color/pink_100"
+        app:cornerRadius="20dp"
         app:icon="@drawable/ic_cart"
+        app:iconTint="@color/pink_100"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/flavor_description"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
