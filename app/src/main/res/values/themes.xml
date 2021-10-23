@@ -45,6 +45,7 @@
 
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
         <item name="android:shadowColor" >@color/white</item>
+        <item name="fontFamily">@font/forte</item>
     </style>
 
     <style name="Theme.NeroMarket.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
