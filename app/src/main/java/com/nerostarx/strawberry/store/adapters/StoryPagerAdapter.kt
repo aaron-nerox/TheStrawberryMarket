@@ -20,8 +20,8 @@ class StoryPagerAdapter():RecyclerView.Adapter<StoryPagerAdapter.StoryPagerHolde
 
     override fun onBindViewHolder(holder: StoryPagerHolder, position: Int) {
         holder.nestedStoryPager.adapter = NestedStoryAdapter()
-        TabLayoutMediator(holder.tabLayout, holder.nestedStoryPager)
-        { _: TabLayout.Tab?, _: Int -> }.attach()
+        /*TabLayoutMediator(holder.tabLayout, holder.nestedStoryPager)
+        { _: TabLayout.Tab?, _: Int -> }.attach()*/
 
         holder.nextButton.setOnClickListener {
             holder.nestedStoryPager.currentItem ++
@@ -38,7 +38,6 @@ class StoryPagerAdapter():RecyclerView.Adapter<StoryPagerAdapter.StoryPagerHolde
         :RecyclerView.ViewHolder(inflater.inflate(R.layout.nested_stories_item, parent, false))
     {
         val nestedStoryPager:ViewPager2 = itemView.findViewById(R.id.images_pager)
-        val tabLayout:TabLayout= itemView.findViewById(R.id.story_tabs)
         val nextButton: Button = itemView.findViewById(R.id.next_button)
         val previousButton:Button = itemView.findViewById(R.id.previous_button)
     }

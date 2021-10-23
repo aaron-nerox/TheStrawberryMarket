@@ -85,7 +85,6 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="16dp"
                         android:elevation="0dp"
-                        android:padding="8dp"
                         app:cardBackgroundColor="?attr/smallComponentColor"
                         app:cardCornerRadius="25dp"
                         app:cardElevation="0dp"
