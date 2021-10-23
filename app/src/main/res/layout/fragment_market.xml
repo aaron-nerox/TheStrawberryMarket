@@ -35,7 +35,7 @@
         android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="72dp"
         android:background="@drawable/view_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,7 +96,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="100dp"
                             android:layout_marginTop="8dp"
-                            android:layout_marginBottom="8dp" />
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"/>
                     </androidx.cardview.widget.CardView>
 
                     <androidx.viewpager2.widget.ViewPager2
