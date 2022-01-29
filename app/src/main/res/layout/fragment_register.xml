@@ -36,7 +36,7 @@
                 android:id="@+id/first_name_input"
                 style="@style/Component.TheX.EditText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
@@ -50,10 +50,10 @@
                 android:paddingBottom="16dp" />
 
             <EditText
-                android:id="@+id/last_name_input"
+                android:id="@+id/first_name_input2"
                 style="@style/Component.TheX.EditText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
@@ -64,13 +64,13 @@
                 android:importantForAutofill="no"
                 android:inputType="textPersonName"
                 android:paddingTop="16dp"
-                android:textStyle="bold" />
+                android:paddingBottom="16dp" />
 
             <EditText
                 android:id="@+id/register_mail_input"
                 style="@style/Component.TheX.EditText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
@@ -88,7 +88,7 @@
                 android:id="@+id/register_pass_input"
                 style="@style/Component.TheX.EditText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
@@ -107,7 +107,7 @@
                 android:id="@+id/register_pass_input_confirm"
                 style="@style/Component.TheX.EditText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
@@ -124,19 +124,22 @@
 
             <Button
                 android:id="@+id/register_button"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="16dp"
-                android:insetTop="2dp"
-                android:paddingLeft="24dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:paddingLeft="32dp"
                 android:paddingTop="8dp"
-                android:paddingRight="24dp"
+                android:paddingRight="32dp"
                 android:paddingBottom="8dp"
                 android:text="@string/register"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -150,25 +153,25 @@
 
             <Button
                 android:id="@+id/go_login_button"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="8dp"
-                android:insetTop="2dp"
-                android:paddingLeft="16dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:paddingLeft="32dp"
                 android:paddingTop="8dp"
-                android:paddingRight="16dp"
+                android:paddingRight="32dp"
                 android:paddingBottom="8dp"
                 android:text="@string/go_to_login"
                 android:textSize="18sp"
+                app:cornerRadius="15dp"
                 app:icon="@drawable/ic_arrow_forward"
                 app:iconGravity="end"
-                app:iconPadding="16dp"
-                app:strokeColor="@color/pink_200"
-                app:strokeWidth="2dp" />
+                app:iconPadding="16dp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

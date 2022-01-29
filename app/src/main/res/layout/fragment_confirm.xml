@@ -51,20 +51,22 @@
 
             <Button
                 android:id="@+id/code_confirm_button"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
-                android:insetTop="2dp"
-                android:insetBottom="2dp"
-                android:paddingLeft="24dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:paddingLeft="32dp"
                 android:paddingTop="8dp"
-                android:paddingRight="24dp"
+                android:paddingRight="32dp"
                 android:paddingBottom="8dp"
                 android:text="confirm"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                app:cornerRadius="15dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -79,26 +81,25 @@
 
             <Button
                 android:id="@+id/resend_code_input"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="8dp"
-                android:insetTop="2dp"
-                android:insetBottom="2dp"
-                android:paddingLeft="16dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:paddingLeft="32dp"
                 android:paddingTop="8dp"
-                android:paddingRight="16dp"
+                android:paddingRight="32dp"
                 android:paddingBottom="8dp"
                 android:text="resend code"
                 android:textSize="18sp"
+                app:cornerRadius="15dp"
                 app:icon="@drawable/ic_arrow_forward"
                 app:iconGravity="end"
-                app:iconPadding="16dp"
-                app:strokeColor="@color/pink_200"
-                app:strokeWidth="2dp" />
+                app:iconPadding="16dp" />
 
             <Button
                 android:id="@+id/remove_acc_button"
@@ -110,16 +111,14 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="8dp"
                 android:paddingLeft="16dp"
-                android:paddingTop="8dp"
+                android:paddingTop="16dp"
                 android:paddingRight="16dp"
                 android:paddingBottom="8dp"
                 android:text="This is not my account"
                 android:textColor="@color/pink_200"
                 android:textSize="18sp"
                 app:iconGravity="end"
-                app:iconTint="@color/pink_200"
-                app:strokeColor="@color/pink_200"
-                app:strokeWidth="2dp" />
+                app:iconTint="@color/pink_200" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
