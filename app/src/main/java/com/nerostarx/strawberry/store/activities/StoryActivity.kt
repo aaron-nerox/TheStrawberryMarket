@@ -9,6 +9,7 @@ class StoryActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setTheme(R.style.Theme_NeroMarket)
         setContentView(R.layout.activity_story)
         val intent = intent
         val navController = findNavController(R.id.story_nav_host)

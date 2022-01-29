@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager2.widget.ViewPager2.ORIENTATION_HORIZONTAL
+import com.nerostarx.strawberry.store.R
 import com.nerostarx.strawberry.store.adapters.OnBoardingAdapter
 import com.nerostarx.strawberry.store.databinding.ActivityOnboardingBinding
 
@@ -12,6 +13,7 @@ class OnBoardingActivity : AppCompatActivity() {
     private lateinit var binding:ActivityOnboardingBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setTheme(R.style.Theme_NeroMarket)
         binding = ActivityOnboardingBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initViews()

@@ -8,13 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NeroMarket">
+        android:theme="@style/Theme.AppLauncher">
+
         <activity android:name=".activities.StoryActivity" />
         <activity android:name=".activities.AuthActivity" />
-        <activity
-            android:name=".activities.MarketActivity"
-            android:label="@string/title_activity_market"
-            android:theme="@style/Theme.NeroMarket.NoActionBar" />
+        <activity android:name=".activities.MarketActivity" />
         <activity android:name=".activities.OnBoardingActivity"
             android:exported="true">
             <intent-filter>
@@ -23,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
