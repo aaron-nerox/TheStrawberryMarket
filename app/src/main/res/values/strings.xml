@@ -40,9 +40,9 @@
     <string name="last_name">Last name</string>
     <string name="first_name">First name</string>
     <string name="create_a_new_account">Create a new account</string>
-    <string name="about_desc">This app was made by nerostarx to complete
-        the imaginary brand \'The strawberry\' that was created by us a while ago, And
-        to showcase the newly created design system \'The X\' by us, for a design or android
+    <string name="about_desc">This app was made as a part of ui project to complete
+        the imaginary brand \'The strawberry\' that was created by me a while ago. And
+        to showcase the newly created design system \'Emerald\'. For a design or android
         dev business contact us by clicking the one of the buttons below.</string>
     <string name="nav_back">nav_back</string>
     <string name="contact_us">Rate us</string>
