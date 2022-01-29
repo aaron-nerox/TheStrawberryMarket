@@ -9,7 +9,7 @@
     android:padding="8dp">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/login_button"
         style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
@@ -36,7 +36,7 @@
         app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/login_button"
         app:layout_constraintTop_toBottomOf="@+id/header_userimage" />
 
     <com.google.android.material.imageview.ShapeableImageView
@@ -85,28 +85,5 @@
         app:layout_constraintStart_toStartOf="@+id/header_username"
         app:layout_constraintTop_toBottomOf="@+id/header_username"
         tools:visibility="visible" />
-
-    <Button
-        android:id="@+id/login_button"
-        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="16dp"
-        android:insetTop="0dp"
-        android:insetBottom="0dp"
-        android:paddingLeft="32dp"
-        android:paddingRight="32dp"
-        android:text="@string/login"
-        android:textAllCaps="false"
-        android:textColor="@color/pink_100"
-        android:visibility="gone"
-        app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/header_usermail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

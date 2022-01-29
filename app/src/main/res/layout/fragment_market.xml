@@ -13,14 +13,14 @@
     <SearchView
         android:id="@+id/searchView"
         style="@android:style/Widget.Material.SearchView"
-        android:theme="@style/searchStyle"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/dragger"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/small_view_background"
+        android:backgroundTint="?attr/searchBarColor"
         android:iconifiedByDefault="false"
         android:queryBackground="@color/transparent"
         android:queryHint="@string/question"
@@ -59,7 +59,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             app:cardBackgroundColor="@color/transparent"
             app:cardCornerRadius="20dp"
             app:cardElevation="0dp"
@@ -78,6 +78,17 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/montserrat"
+                        android:textSize="18sp"
+                        android:text="Client stories"/>
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -87,32 +98,51 @@
                         android:elevation="0dp"
                         app:cardBackgroundColor="?attr/smallComponentColor"
                         app:cardCornerRadius="25dp"
-                        app:cardElevation="0dp"
-                        app:cardPreventCornerOverlap="false">
+                        app:cardElevation="0dp">
 
                         <androidx.recyclerview.widget.RecyclerView
                             android:id="@+id/stories_recycler"
                             android:layout_width="match_parent"
                             android:layout_height="100dp"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginBottom="8dp"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginRight="8dp"/>
+                            android:layout_margin="4dp" />
                     </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/montserrat"
+                        android:textSize="18sp"
+                        android:text="Featured milk flavors"/>
 
                     <androidx.viewpager2.widget.ViewPager2
                         android:id="@+id/promo_pager"
                         android:layout_width="match_parent"
                         android:layout_height="150dp"
-                        android:layout_marginTop="16dp" />
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/montserrat"
+                        android:textSize="18sp"
+                        android:text="Our products"/>
 
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/product_recycler"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginStart="8dp"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="32dp"
                         android:overScrollMode="always" />
 
                 </LinearLayout>
